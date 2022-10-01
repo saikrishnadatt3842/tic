@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<head>
+   <meta name="viewport" content="width=device-width,initial-scale=1.0"/>   
+    <title>game</title>
+    <style>
+  td{
+      height: 120px;
+      width: 150px;
+      text-align: center;
+      border: 5px solid red;
+    
+      font-size: 100px;
+    
+  }
+  h4{
+      justify-items: end;
+      font-size: 25px;
+      color: orangered;
+      text-align: center;
+  }
+  body{
+      
+      margin-bottom: 40px;
+  }
+  #a,#btn{
+      cursor: pointer;
+      width: 100px;
+      height: 40px;
+      background-color: chartreuse;
+      padding: 10px;
+      border-radius: 10px;
+  }
+  table{
+      border-collapse: collapse;
+      cursor: pointer;
+      align-items: center;
+      align-content: center;
+      padding: 20px;
+  }
+  .jumbo{
+      margin-top: 0%;
+      margin-left: 20%;
+      margin-right: 20%;
+      margin-bottom: 4%;
+      text-align: center;
+      background-color: #dee2e6;
+  }
+h3{
+    padding-bottom: 5%;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+a{
+    margin-bottom: 4%;
+}
+  tr{
+      border: 5px solid;
+  }
+  body{
+      padding-top: 0%;
+      margin-top: 0%;
+  }
+  #icon{
+      width: 30px;
+      cursor: pointer;
+      padding-left: 10px;
+      padding-top: 9px;
+  }
+  #dk{
+      cursor: pointer;
+    width: 100px;
+      height: 40px;
+      background-color: chartreuse;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  #dk:link,#dk:visited{
+      background-color: #e67e22;
+      color: white;
+  }
+   #dk:hover,#dk:active{
+      background-color:darkorange; 
+       color: white;
+       border: 3px solid white;
+       box-shadow: 3px 2px 7px 2px black;
+   }
+   #a:hover,#a:active{
+    background-color:darkturquoise;
+       color: black;
+       border: 3px solid #fff;
+       box-shadow: 3px 2px 7px 2px black;
+   }
+   #btn:hover,#btn:active{
+    background-color:#fa5252;
+       color: white;
+       border: 3px solid #fff;
+       box-shadow: 3px 2px 7px 2px black;
+   }
+.sai{
+    font-size: 23px;
+    color: #e67e22;
+}
+@media(max-width:500px){
+     body{
+         background-color: brown;
+     }
+}
+   
+  </style>
+<body id="bdy">
+
+<div class="cointainer">
+    <div class="jumbo">
+        <img id="icon" src="images/moon.png" alt="moon">
+        <h3>welcome to tic toc toe game</h3>
+        <button id="dk"> Dark Mode</button>
+        <button id="a">Normal Mod</button>
+        <button id="btn">Restart!</button>
+             
+    </div>
+    <h1>Steps :</h1>
+    <ul>
+        <li>welcome to tic tac toe</li>
+        <li>one click for "x" </li>
+        <li>bouble clilck for "o" </li>
+    </ul>
+
+  <table align="center">
+   <tr>
+       
+       <td id="td1"></td>
+       <td id="td2"></td>
+       <td id="td3"></td>
+   </tr>
+
+   <tr>
+    <td id="td4"></td>
+    <td id="td5"></td>
+    <td id="td6"></td>
+</tr>
+
+<tr>
+    <td id="td7"></td>
+    <td id="td8"></td>
+    <td id="td9"></td>
+</tr>
+
+  </table>
+
+</div>
+
+<button id="sai">genaate</button>
+<h4 id="output" style="text-align: center;">randum</h4>
+
+<p class="sai">copyright &copy; 2022 by sai krishna datt part of "tic toc toe game"</p>
+</body>
+
+</body>
+<script src="index.js"></script>
+</html>
